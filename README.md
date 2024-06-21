@@ -1,6 +1,8 @@
 # Mini Paints API
 
-This code is a Flask application that operates as a RESTful API for a paint database. It allows users to search for paint colors based on a given hex code and range of color difference, as well as calculate the color difference between two hex codes.
+This code is a Flask application that operates as a RESTful API for a paint database. It allows users to search for paint colors based on a given hex code and range of color difference (using a simple Delta E equation), as well as calculate the color difference between two hex codes.
+
+The paint database is derived from the repo [RGB values of Miniature Paints provided by Miniature Painter Pro](https://github.com/Arcturus5404/miniature-paints).
 
 The code begins by importing the necessary dependencies: sqlite3 for database operations, Flask for creating the API, jsonify and json for JSON responses, and Flask-CORS for enabling cross-origin resource sharing.
 
